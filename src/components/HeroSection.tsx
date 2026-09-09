@@ -162,7 +162,7 @@ export function HeroSection() {
                     }
                   }}
                   alt="Amitesh Kumar — Strategy & Growth"
-                  className="w-full h-full object-cover object-top filter brightness-[0.98] contrast-[1.03] transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+                  className="w-full h-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-[1.02]"
                 />
 
                 {/* Subtle gradient scrim at the bottom */}

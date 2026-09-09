@@ -1,6 +1,6 @@
 import { Project, TimelineExperience, Achievement } from '../types';
 
-import portraitImg from '../assets/images/amitesh_portrait_real_1788961162833.jpg';
+import portraitImg from '../assets/images/amitesh_kumar_real.jpg';
 import bowlImg from '../assets/images/bowl_and_beyond_food_1788956852216.jpg';
 import thynaaImg from '../assets/images/thynaa_wellness_pilot_1788956888573.jpg';
 import iskconImg from '../assets/images/iskcon_operations_scale_1788956904930.jpg';
@@ -11,8 +11,8 @@ export const PERSONAL_INFO = {
   name: 'AMITESH KUMAR',
   role: 'Strategy | Growth | Operations',
   heroStatement: '“I build businesses, solve problems & turn ideas into execution.”',
-  portrait: '/P1051020.JPG',
-  fallbackPortrait: portraitImg,
+  portrait: portraitImg,
+  fallbackPortrait: '/amitesh_kumar_real.jpg',
   educationCurrent: {
     institution: "Masters’ Union",
     program: 'PGP in Human Resources & Organizational Strategy',
@@ -413,6 +413,96 @@ export const TIMELINE_EXPERIENCES: TimelineExperience[] = [
       ],
       whatILearned: [
         'Data analytics is only as valuable as the business decisions it clarifies and accelerates.',
+      ],
+    },
+  },
+  {
+    id: 'scaler',
+    company: 'SCALER (INTERVIEWBIT)',
+    companyUrl: 'https://www.scaler.com/',
+    role: 'Technical Content Reviewer Intern',
+    category: 'EdTech / Curriculum QA / Content Operations',
+    image: scalerImg,
+    period: 'Dec 2022 – Mar 2024',
+    location: 'Remote / Bengaluru',
+    isPrimary: false,
+    tags: ['Content Operations', 'QA Optimization', 'Technical Review', 'Workflow Design'],
+    highlights: [
+      'Reviewed and published 400+ technical learning modules spanning algorithms, systems, and software engineering.',
+      'Optimized the technical review process to compress review cycle turnaround by ~25% without compromising rigor.',
+      'Established standardized review rubrics, code execution verifications, and modular feedback loops for author revisions.',
+    ],
+    metrics: [
+      { value: '400+', num: 400, suffix: '+', label: 'Technical Modules Published' },
+      { value: '~25%', num: 25, prefix: '~', suffix: '%', label: 'Faster Review Turnaround' },
+      { value: '100%', num: 100, suffix: '%', label: 'Technical Accuracy & Compliance' },
+    ],
+    caseStudy: {
+      problem:
+        'Scaling technical curriculum for computer science learners suffered from prolonged editorial turnaround times, author revision bottlenecks, and varied quality benchmarks across disparate contributors.',
+      whatIDid: [
+        'Reviewed, validated, and published 400+ technical learning modules spanning algorithms, systems, and engineering topics.',
+        'Identified recurring editorial bottlenecks in code validation and explanatory clarity.',
+        'Redesigned the technical review workflow to accelerate publishing throughput by ~25%.',
+        'Codified technical rubrics and structured self-checks for contributing technical authors.',
+      ],
+      approach: [
+        'Established standardized review rubrics focusing on pedagogical clarity, code compilation, and SEO structure.',
+        'Created a modular feedback loop allowing authors to self-check common edge cases before submission.',
+        'Applied computer science engineering background to verify accuracy rapidly without third-party escalation.',
+      ],
+      outcome: [
+        'Successfully deployed 400+ production-grade educational modules to Scaler learners.',
+        'Compressed overall review cycle time by ~25% while elevating technical rigor and learner retention.',
+        'Constructed a durable QA framework adopted across technical content verticals.',
+      ],
+      whatILearned: [
+        'Review systems speed up when evaluators codify expectations upfront rather than debating subjective nuances at the end.',
+        'High publishing velocity and uncompromising technical rigor can coexist through structured workflows.',
+      ],
+    },
+  },
+  {
+    id: 'google-search-lab',
+    company: 'GOOGLE SEARCH LAB',
+    companyUrl: 'https://www.google.com/',
+    role: 'User Intent Research & Search Quality Intern',
+    category: 'Search Research / User Intent / Quality & Trust',
+    image: googleLabImg,
+    period: 'Dec 2023 – Mar 2024',
+    location: 'Gurugram / Remote',
+    isPrimary: false,
+    tags: ['User Intent', 'Search Quality', 'Qualitative Research', 'Trust & Safety'],
+    highlights: [
+      'Created and reviewed 300+ Search Notes submissions, directly evaluating query intent and content relevance.',
+      'Ranked #3 fastest contributor nationally while sustaining a flawless 100% compliance record with strict quality rubrics.',
+      'Applied qualitative analysis across varied user archetypes to strengthen trust in search outcomes.',
+    ],
+    metrics: [
+      { value: '300+', num: 300, suffix: '+', label: 'Search Notes Submissions' },
+      { value: '#3', label: 'Fastest Contributor Nationally' },
+      { value: '100%', num: 100, suffix: '%', label: 'Quality & Policy Compliance' },
+    ],
+    caseStudy: {
+      problem:
+        'Evaluating nuanced user search queries and synthesizing high-utility Search Notes requires discerning latent intent from ambiguous inputs while complying strictly with stringent quality rubrics.',
+      whatIDid: [
+        'Analyzed and produced 300+ Search Notes submissions directly evaluating query intent and content relevance.',
+        'Applied qualitative analysis across varied user archetypes to strengthen trust in search outcomes.',
+        'Maintained perfect adherence to search quality and compliance guidelines throughout the engagement.',
+      ],
+      approach: [
+        'Deconstructed query phrasing into primary and secondary intent vectors.',
+        'Synthesized high-density, context-rich notes that answer core search questions concisely.',
+        'Developed a disciplined evaluation rhythm that balanced analytical depth with rapid throughput.',
+      ],
+      outcome: [
+        'Delivered 300+ approved submissions reinforcing search trust and content quality.',
+        'Officially recognized as the 3rd fastest contributor nationally while sustaining zero quality infractions.',
+      ],
+      whatILearned: [
+        'True user intent often diverges from literal syntax; empathy and contextual awareness are essential analytical tools.',
+        'Speed is not the adversary of quality—it is the natural byproduct of structured decision criteria.',
       ],
     },
   },

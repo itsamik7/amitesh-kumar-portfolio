@@ -194,7 +194,7 @@ export function AboutSection() {
                       }
                     }}
                     alt="Amitesh Kumar"
-                    className="absolute inset-0 w-full h-full object-cover object-top filter brightness-[0.92] group-hover:scale-110 transition-transform duration-500"
+                    className="absolute inset-0 w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500"
                     referrerPolicy="no-referrer"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
