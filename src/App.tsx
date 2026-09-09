@@ -9,6 +9,7 @@ import { Navigation } from './components/Navigation';
 import { HeroSection } from './components/HeroSection';
 import { AboutSection } from './components/AboutSection';
 import { ExperienceSection } from './components/ExperienceSection';
+import { ProjectsSection } from './components/ProjectsSection';
 import { VentureSection } from './components/VentureSection';
 import { SkillsSection } from './components/SkillsSection';
 import { BeyondWorkSection } from './components/BeyondWorkSection';
@@ -48,6 +49,9 @@ function PortfolioApp() {
 
         {/* Section: Experience (Card-based Layout with Deep Dive Case Studies) */}
         <ExperienceSection />
+
+        {/* Section: AI Projects & Innovation (Cravee Food Recommendation Engine) */}
+        <ProjectsSection />
 
         {/* Section: Ventures (The Bowl & Beyond) */}
         <VentureSection />

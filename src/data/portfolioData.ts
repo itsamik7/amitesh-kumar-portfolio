@@ -600,3 +600,48 @@ export const BEYOND_WORK_ITEMS = [
     text: 'Managed event logistics for 100,000+ attendees across large-scale social initiatives; organized 30+ mindfulness and stress-management sessions; facilitated de-stress workshops engaging 500+ participants.',
   },
 ];
+
+export const CRAVEE_PROJECT = {
+  id: 'cravee-ai',
+  name: 'Cravee',
+  tagline: 'AI-Powered Smart Food Recommendation Engine',
+  category: 'AI in Business Applications',
+  course: 'AI in Business Applications',
+  url: 'https://cravee.ai.studio',
+  badge: 'FEATURED AI APP',
+  description:
+    'Built for people who often find themselves confused or exhausted trying to decide what to eat. Cravee eliminates culinary decision fatigue by intelligently recommending the ideal meal based on your real-time mood, energy level, and dietary goal.',
+  problem:
+    'Endless food delivery scrolling and kitchen decision fatigue consume 15–20 minutes per meal, often resulting in skipped lunches or guilt-ridden, unhealthy impulsive choices.',
+  solution:
+    'A contextual 3-vector recommendation algorithm that balances emotional cravings (Mood), physical stamina (Energy), and nutritional intent (Goal) to deliver instantaneous, tailored culinary guidance.',
+  inputs: [
+    {
+      name: 'Mood',
+      description: 'Matches emotional cravings (stress relief, comfort, high focus, celebratory).',
+      iconName: 'Smile',
+    },
+    {
+      name: 'Energy',
+      description: 'Calibrates digestion load against fatigue, slump, or active stamina needs.',
+      iconName: 'Zap',
+    },
+    {
+      name: 'Goal',
+      description: 'Aligns with fitness and lifestyle targets: high protein, <15m prep, or clean gut health.',
+      iconName: 'Target',
+    },
+  ],
+  metrics: [
+    { value: '3 Inputs', label: 'Mood • Energy • Goal' },
+    { value: '< 10s', label: 'Zero Decision Fatigue' },
+    { value: '100%', label: 'Context-Aware AI Matching' },
+  ],
+  tags: [
+    'Generative AI',
+    'AI in Business Applications',
+    'Decision Architecture',
+    'Consumer Tech',
+  ],
+};
+

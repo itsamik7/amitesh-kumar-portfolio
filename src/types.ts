@@ -57,3 +57,26 @@ export interface Achievement {
 }
 
 export type CursorMode = 'default' | 'pointer' | 'view' | 'explore' | 'open' | 'copy';
+
+export interface CraveeProjectData {
+  id: string;
+  name: string;
+  tagline: string;
+  category: string;
+  course: string;
+  url: string;
+  badge: string;
+  description: string;
+  problem: string;
+  solution: string;
+  inputs: {
+    name: string;
+    description: string;
+    iconName: string;
+  }[];
+  metrics: {
+    value: string;
+    label: string;
+  }[];
+  tags: string[];
+}

@@ -14,6 +14,7 @@ const NAV_ITEMS = [
   { label: 'Home', href: '#hero' },
   { label: 'About', href: '#about' },
   { label: 'Experience', href: '#experience' },
+  { label: 'Projects', href: '#projects' },
   { label: 'Ventures', href: '#ventures' },
   { label: 'Contact', href: '#contact' },
 ];
@@ -29,7 +30,7 @@ export function Navigation({ onContactClick }: NavigationProps) {
       setIsScrolled(window.scrollY > 40);
 
       // Simple active section spy
-      const sections = ['hero', 'about', 'experience', 'ventures', 'contact'];
+      const sections = ['hero', 'about', 'experience', 'projects', 'ventures', 'contact'];
       for (const sectionId of sections) {
         const el = document.getElementById(sectionId);
         if (el) {
