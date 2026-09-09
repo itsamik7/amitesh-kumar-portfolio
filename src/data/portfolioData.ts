@@ -1,5 +1,6 @@
 import { Project, TimelineExperience, Achievement } from '../types';
 
+import realPortraitImg from '../assets/images/P1051020.JPG';
 import bowlImg from '../assets/images/bowl_and_beyond_food_1788956852216.jpg';
 import thynaaImg from '../assets/images/thynaa_wellness_pilot_1788956888573.jpg';
 import iskconImg from '../assets/images/iskcon_operations_scale_1788956904930.jpg';
@@ -10,7 +11,7 @@ export const PERSONAL_INFO = {
   name: 'AMITESH KUMAR',
   role: 'Strategy | Growth | Operations',
   heroStatement: '“I build businesses, solve problems & turn ideas into execution.”',
-  portrait: '/P1051020.JPG',
+  portrait: realPortraitImg,
   fallbackPortrait: '/P1051020.JPG',
   educationCurrent: {
     institution: "Masters’ Union",
